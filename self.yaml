@@ -1,6 +1,5 @@
 proxies:
   - {name: 🇳🇱 Amsterdam, server: a.nl.maviks.eu, port: 443, client-fingerprint: random, type: vless, uuid: 0fef2b0a-6a4e-40cf-810e-3d95773406f3, tls: true, tfo: false, skip-cert-verify: true, servername: maviks.eu, network: tcp}
-  - {name: 233boy-reality-47.79.90.70, server: 47.79.90.70, port: 46511, client-fingerprint: random, type: vless, uuid: 2a2b2a06-f170-4ca3-b075-6760d40507b5, tls: true, tfo: false, skip-cert-verify: true, servername: www.ebay.com, network: tcp}
   - {name: 🇷🇺 Russia, server: ru.maviks.eu, port: 443, client-fingerprint: random, type: vless, uuid: 0fef2b0a-6a4e-40cf-810e-3d95773406f3, tls: true, tfo: false, skip-cert-verify: true, servername: maviks.eu, network: tcp}
   - {name: 🌐 Reserve, server: cdn-nodes.maviks.eu, port: 443, client-fingerprint: random, type: vless, uuid: 0fef2b0a-6a4e-40cf-810e-3d95773406f3, tls: true, tfo: false, skip-cert-verify: true, servername: cdn-nodes.maviks.eu, network: ws, ws-opts: {path: "/pLmdwS3fSrE9WwdgE3LdG2?ed=2560", headers: {Host: cdn-nodes.maviks.eu}}}
   - {name: 🇩🇪 Germany, server: nodes.maviks.eu, port: 443, client-fingerprint: random, type: vless, uuid: 0fef2b0a-6a4e-40cf-810e-3d95773406f3, tls: true, tfo: false, skip-cert-verify: true, servername: maviks.eu, network: tcp}
