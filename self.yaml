@@ -1,0 +1,79 @@
+proxies:
+  - name: 🇳🇱 Amsterdam
+    type: vless
+    server: a.nl.maviks.eu
+    port: 443
+    uuid: 0fef2b0a-6a4e-40cf-810e-3d95773406f3
+    security: reality
+    transport: tcp
+    flow: xtls-rprx-vision
+    sni: maviks.eu
+    fp: chrome
+    pbk: fPSR5GZpxhOV6Rh7VzMtS4AeRN7ipyNX4waG9JzJzxQ
+    sid: 21181028b56c8702
+
+  - name: 233boy-reality-47.79.90.70
+    type: vless
+    server: 47.79.90.70
+    port: 46511
+    uuid: 2a2b2a06-f170-4ca3-b075-6760d40507b5
+    security: tls
+    transport: tcp
+    sni: www.ebay.com
+    allow-insecure: false
+    xtls: true
+    pbk: BEmM-FPxSNJjHN-KdjEwOARihYs0OFhg4IPwOZOzezs
+
+  - name: 8Ji-HuFCfhg7wg5Y-w5rm-MSDlpYjpo54g5Y6f55Sf5ZBJ
+    type: ssr
+    server: tw1.moonbase.life
+    port: 20411
+    protocol: auth_aes128_sha1
+    method: chacha20-ietf
+    obfs: tls1.2_ticket_auth
+    password: cUIyWGowy/
+    obfsparam: emwwYWc1aHyk1HbHBCd0NRVWX5ROFdvYm1NTHM5dDNuWldsamNtOXpiMlowTG1OdmJR
+    protocolparam: Njc5NTZNZzZObk54WTBJNWFGUkJVVU52WWpaUVF3
+    remarks: 8Ji-HuFCfhg7wg5Y-w5rm-MSDlpYjpo54g5Y6f55Sf5ZBJ
+
+  - name: 🇷🇺 Russia
+    type: vless
+    server: ru.maviks.eu
+    port: 443
+    uuid: 0fef2b0a-6a4e-40cf-810e-3d95773406f3
+    security: reality
+    transport: tcp
+    flow: xtls-rprx-vision
+    sni: maviks.eu
+    fp: chrome
+    pbk: cGzNRbN_zruI3CVTDukB2nOqWWEj7kgkay24f2fdLmQ
+    sid: 0f917152a871e9c0
+
+  - name: 🌐 Reserve
+    type: vless
+    server: cdn-nodes.maviks.eu
+    port: 443
+    uuid: 0fef2b0a-6a4e-40cf-810e-3d95773406f3
+    security: tls
+    transport: ws
+    path: /pLmdwS3fSrE9WwdgE3LdG2?ed=2560
+    host: cdn-nodes.maviks.eu
+    sni: cdn-nodes.maviks.eu
+    fp: chrome
+    'ws-opts':
+      path: /pLmdwS3fSrE9WwdgE3LdG2?ed=2560
+      headers:
+        Host: cdn-nodes.maviks.eu
+
+  - name: 🇩🇪 Germany
+    type: vless
+    server: nodes.maviks.eu
+    port: 443
+    uuid: 0fef2b0a-6a4e-40cf-810e-3d95773406f3
+    security: reality
+    transport: tcp
+    flow: xtls-rprx-vision
+    sni: maviks.eu
+    fp: chrome
+    pbk: lyLhdojpACv6B3tHViJvPjNGATedXYRMnpAt4n4Siyo
+    sid: f203719d3ff9a5f5
